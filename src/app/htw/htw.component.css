@@ -1,0 +1,20 @@
+#d1 {
+    display:block;
+    }
+    #whyjoin{
+      display:block;
+      background-color:#27A1DE ;
+    }
+    .card {display:inline-block;}
+    #d2{
+    display:block;
+    height:400px;
+    width:100%;
+    }
+    #d3{
+    margin:30px;
+    display:block;
+    width:30%;
+    padding:50px;
+    }
+    
