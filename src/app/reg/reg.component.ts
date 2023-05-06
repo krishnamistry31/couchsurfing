@@ -14,19 +14,19 @@ export class RegComponent implements OnInit {
 
   ngOnInit() {
     this.formdata = new FormGroup({
-       email:new FormControl(" ",Validators.compose([
+       email:new FormControl("",Validators.compose([
          Validators.required,
          Validators.email,
        ]) ),
-       name:new FormControl(" ",Validators.compose([
+       name:new FormControl("",Validators.compose([
          Validators.required,
          Validators.minLength(3),
          Validators.maxLength(15),
         ]) ),
-        passw:new FormControl(" ",Validators.compose([
+        passw:new FormControl("",Validators.compose([
          Validators.required,
         ]) ),
-        rpassw:new FormControl(" ",Validators.compose([
+        rpassw:new FormControl("",Validators.compose([
           Validators.required,
          ]) )
      },
